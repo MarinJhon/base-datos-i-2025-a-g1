@@ -1,0 +1,2 @@
+refinar datos
+Refinar los datos es un paso clave en el proceso de ciencia de datos para garantizar que los datos sean adecuados para el análisis y las predicciones. Utilizando herramientas como IBM Watson Studio, puedes realizar diversas operaciones de refinación para transformar, limpiar y preparar los datos para su análisis. Aquí hay algunos pasos comunes al refinar datos:
