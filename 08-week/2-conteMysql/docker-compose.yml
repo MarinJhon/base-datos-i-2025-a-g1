@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  mysql:
+    container_name: serve-mysql2
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+    ports:
+      - "3308:3306"
+volumes:
+  mysql_data:
+    driver: local

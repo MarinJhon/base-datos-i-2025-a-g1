@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  db:
+    container_name: serve-postgres
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ports:
+      - "5433:5432"
+    
+ 
